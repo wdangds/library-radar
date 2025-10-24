@@ -1,4 +1,4 @@
-# Library Seat Radar
+# Library Radar
 
 Live, privacy-first seat availability for **multi-floor** libraries.
 Students see a floor map, zone heat, and the **nearest fresh free table**—no wandering.
@@ -9,7 +9,7 @@ Students see a floor map, zone heat, and the **nearest fresh free table**—no w
 
 ```bash
 # Serve statically (any port is fine)
-cd library-seat-radar
+cd library-radar
 python3 -m http.server 5173
 
 # Open in your browser
