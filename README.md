@@ -192,7 +192,7 @@ Each floor uses **one** of these styles:
 
 ---
 
-## 🧪 What’s Next (Stretch)
+## 🧪 What’s Next 
 
 ### 1) Real-time crowd
 
@@ -232,13 +232,13 @@ Turn real photos or 2D plans into an explorable **3D** library view:
 
 ## 📝 License
 
-MIT (or your preferred license).
+MIT.
 
 ---
 
 ## 👥 Credits
 
-* **Team:** 2 hackers in a 2-hour sprint 💪
+* **Team:** Wan Dang and Danny Nhan 💪
 * Map images belong to their respective libraries; used for prototyping only.
 
 ---
