@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/main.js
 import { initUI, setSelectedFloor } from './ui.js';
 
@@ -29,3 +30,5 @@ export async function boot() {
   seedRandom();
   draw();
 }
+=======
+>>>>>>> parent of 6dd3b51 (update)

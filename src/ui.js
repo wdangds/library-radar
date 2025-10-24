@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/ui.js
 import { state } from './state.js';
 
@@ -48,3 +49,5 @@ export function mountLegend(el) {
     <div style="margin-top:6px;font-size:12px;color:#555">Alt-click logs coordinates in DevTools to place real tables.</div>
   `;
 }
+=======
+>>>>>>> parent of 6dd3b51 (update)
