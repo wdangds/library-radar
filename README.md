@@ -142,19 +142,6 @@ Each floor uses **one** of these styles:
 
 ---
 
-## 🧑‍🤝‍🧑 2-Person Split (what we actually did)
-
-* **Teammate A — UI & Draw**
-
-  * `index.html`, `styles/app.css`, `src/draw.js`, `src/ui.js`
-  * Floor selector & markers, legend, highlight/zoom polish
-* **Teammate B — Logic & Data**
-
-  * `src/state.js`, `src/heat.js`, `src/find.js`, `src/seed.js`, `data/*.json`
-  * Freshness/TTL, zone heat, nearest free seat, synthetic seeding
-
----
-
 ## 🧰 Troubleshooting
 
 * **Port already in use**
