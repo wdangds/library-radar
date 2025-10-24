@@ -1,19 +1,21 @@
 // src/main.js
-import { FLOORS } from './floors.js';
 import { initUI, setSelectedFloor } from './ui.js';
 
 // These should exist in your other files:
-import { loadFloor, draw, setTTL } from './state.js';
+import { loadModel, setCurrentFloor, draw, setTTL } from './state.js';
 import { seedRandom } from './seed.js';
 // If your finder export is named differently, adjust this import:
 import { findNearest } from './find.js';
 
-export function boot() {
+export async function boot() {
+  // Load the building model first (includes schematic floors)
+  await loadModel('data/building.example.json');
+  
   // Wire UI first
   initUI({
-    onFloorChange: (floor) => {
-      loadFloor(floor, FLOORS);  // rebuild tables/zones for that floor
-      seedRandom();               // synth data so it looks alive
+    onFloorChange: (floorId) => {
+      setCurrentFloor(floorId);  // switch to the floor
+      seedRandom();              // synth data so it looks alive
       draw();
     },
     onRandomize: () => { seedRandom(); draw(); },
@@ -22,8 +24,8 @@ export function boot() {
   });
 
   // Default to Floor 1
-  setSelectedFloor(1);
-  loadFloor(1, FLOORS);
+  setSelectedFloor('F1');
+  setCurrentFloor('F1');  // Use the actual floor ID from building.example.json
   seedRandom();
   draw();
 }

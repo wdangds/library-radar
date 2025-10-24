@@ -27,17 +27,30 @@
       },
       {
         "id": "F4",
-        "name": "Floor 4",
+        "name": "Floor 4 (image + crop)",
         "image": "assets/maps/floor-4.jpg",
-        "entrance": { "x": 0, "y": 0 },
+        "crop": { "sx": 90, "sy": 60, "sw": 1400, "sh": 950 },
+        "entrance": { "x": 840, "y": 540 },
         "tables": [],
         "zones": []
       },
       {
         "id": "F5",
-        "name": "Floor 5",
-        "image": "assets/maps/floor-5.jpg",
-        "entrance": { "x": 0, "y": 0 },
+        "name": "Floor 5 (schematic)",
+        "schematic": {
+          "size": { "width": 1200, "height": 900 },
+          "areas": [
+            { "id": "Z5R", "name": "Study Zone (Right)",  "rect": [660,140,480,420] },
+            { "id": "Z5B", "name": "Study Zone (Bottom)", "rect": [300,560,780,220] }
+          ],
+          "entrance": { "x": 840, "y": 540 },
+          "seatRows": [
+            { "prefix": "R", "count": 6,  "start": [700,220], "step": [70,0] },
+            { "prefix": "R", "count": 6,  "start": [700,300], "step": [70,0] },
+            { "prefix": "B", "count": 12, "start": [340,640], "step": [70,0] },
+            { "prefix": "B", "count": 6,  "start": [340,720], "step": [70,0] }
+          ]
+        },
         "tables": [],
         "zones": []
       }
