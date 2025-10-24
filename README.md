@@ -1,4 +1,4 @@
-# Library Radar
+# Library Radar - LT3SD 
 
 Live, privacy-first seat availability for **multi-floor** libraries.
 Students see a floor map, zone heat, and the **nearest fresh free table**—no wandering.
