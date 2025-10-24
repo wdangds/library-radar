@@ -207,13 +207,6 @@ Turn real photos or 2D plans into an explorable **3D** library view:
 * Keyboard accessibility & tooltips.
 * Per-floor overview cards with heat %.
 
----
-
-## 🔐 Privacy
-
-* No cameras or continuous tracking in the MVP.
-* All reports decay via TTL; stale data turns grey automatically.
-* Future AI/3D steps run offline from short captures; output is structural, not identifying.
 
 ---
 
