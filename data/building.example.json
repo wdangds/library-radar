@@ -4,28 +4,43 @@
       {
         "id": "F1",
         "name": "Floor 1",
-        "image": "assets/maps/floor-1.png",
-        "entrance": { "x": 60, "y": 720 },
-        "tables": [
-          { "id": "1-T01", "x": 180, "y": 160, "status": "unknown", "last_update": 0 }
-        ],
-        "zones": [
-          { "id": "1-Z1", "name": "North Reading", "bounds": [140,120,420,280] }
-        ]
+        "image": "assets/maps/floor-1.jpg",
+        "entrance": { "x": 0, "y": 0 },
+        "tables": [],
+        "zones": []
       },
       {
         "id": "F2",
         "name": "Floor 2",
-        "image": "assets/maps/floor-2.png",
-        "entrance": { "x": 80, "y": 700 },
-        "tables": [
-          { "id": "2-T01", "x": 220, "y": 200, "status": "unknown", "last_update": 0 }
-        ],
-        "zones": [
-          { "id": "2-Z1", "name": "Quiet Zone", "bounds": [160,140,460,300] }
-        ]
+        "image": "assets/maps/floor-2.jpg",
+        "entrance": { "x": 0, "y": 0 },
+        "tables": [],
+        "zones": []
+      },
+      {
+        "id": "F3",
+        "name": "Floor 3",
+        "image": "assets/maps/floor-3.jpg",
+        "entrance": { "x": 0, "y": 0 },
+        "tables": [],
+        "zones": []
+      },
+      {
+        "id": "F4",
+        "name": "Floor 4",
+        "image": "assets/maps/floor-4.jpg",
+        "entrance": { "x": 0, "y": 0 },
+        "tables": [],
+        "zones": []
+      },
+      {
+        "id": "F5",
+        "name": "Floor 5",
+        "image": "assets/maps/floor-5.jpg",
+        "entrance": { "x": 0, "y": 0 },
+        "tables": [],
+        "zones": []
       }
-      
     ]
   }
   
