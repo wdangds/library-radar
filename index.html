@@ -1,3 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Library Seat Radar</title>
+  <link rel="stylesheet" href="styles/app.css" />
+</head>
+<body>
+  <div id="stage-wrap">
+    <canvas id="stage"></canvas>
+  </div>
+
+  <aside id="side">
+    <h1>Library Seat Radar</h1>
+
+    <div class="row">
+      <!-- NEW: Floor selector for 5 floors -->
+      <label>Floor:
+        <select id="floorSelect"></select>
+      </label>
+
+      <button id="findBtn">Find Empty Table</button>
+      <button id="randBtn">Demo: Randomize</button>
+
+      <label>TTL (min): <input id="ttlInput" type="number" value="20" min="1" /></label>
+      <button id="applyTTL">Apply</button>
+    </div>
+
+    <div id="legend"></div>
     <div id="info"></div>
   </aside>
 
